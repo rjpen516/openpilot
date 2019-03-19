@@ -31,7 +31,7 @@ def get_powertrain_can_parser(CP, canbus):
     ("LKATorqueDeliveredStatus", "PSCMStatus", 0),
   ]
 
-  if CP.carFingerprint == CAR.VOLT:
+  if CP.carFingerprint == CAR.VOLT or CP.carFingerprint == CAR.BOLT:
     signals += [
       ("RegenPaddle", "EBCMRegenPaddle", 0),
     ]
