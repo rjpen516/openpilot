@@ -115,7 +115,7 @@ STOCK_CONTROL_MSGS = {
   CAR.CADILLAC_ATS: [384, 715], # 384 = "ASCMLKASteeringCmd", 715 = "ASCMGasRegenCmd"
   CAR.BUICK_REGAL: [384, 715], # 384 = "ASCMLKASteeringCmd", 715 = "ASCMGasRegenCmd"
   CAR.CADILLAC_CT6: [], # CT6 does not require ASCMs to be disconnected
-  CAR.BOLT: [],
+  CAR.BOLT: [384,715],
 }
 
 DBC = {
