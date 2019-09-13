@@ -72,7 +72,7 @@ class CarInterface(object):
       # kg of standard extra cargo to count for driver, gas, etc...
       ret.mass = 1607 + std_cargo
       ret.safetyModel = car.CarParams.SafetyModels.gm
-      ret.wheelbase = 2.69
+      ret.wheelbase = 2.6
       ret.steerRatio = 15.7
       ret.steerRatioRear = 0.
       ret.centerToFront = ret.wheelbase * 0.4 # wild guess
